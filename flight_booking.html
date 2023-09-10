@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_file/flight_booking.css">
+    <link rel="stylesheet" href="css_file/all.min.css">
+    <link rel="stylesheet" href="css_file/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Flight Booking</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header >
+        <img src="images/ea NBE ENG.png" class="image_bg">
+        <div class="header_container" id="header">
+            <div class="container">
+                <div class="header_content ">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/egyptairmainlogo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="nav_header">
+                        <nav class="nav_list nav justify-content-end">
+                            <ul class="ul2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle dropbtn" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="myFunction()" >
+                                        <i class="fa-solid fa-user" ></i>
+                                        Login 
+                                    </a>
+                                    <div class="dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                        <div id="myDropdown" class="dropdown-content">
+                                          <a href="login_page1.html" target="_blank">EGYPTAIR Corporate</a>
+                                          <a href="login_page2.html" target="_blank">EGYPTAIR Plus</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle dropbtn dropbtn2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="myFunction2()">
+                                        <img src="images/EgyptFlag.gif" style="border-radius: 50%; height:30px ; width:30px">
+                                        Egypt | English
+                                    </a>
+                                    <div class="dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                            <div id="myDropdown-2" class="dropdown-content-2">
+                                              <form>
+                                                <label for="country">Country and Language</label><br>
+                                                <select name="country" id="country">
+                                                  <option value="Egypt">Egypt</option>
+                                                  <option value="saab">Saab</option>
+                                                  <option value="opel">Opel</option>
+                                                  <option value="audi">Audi</option>
+                                                </select>
+                                                <select name="Language" id="country">
+                                                    <option value="English">English</option>
+                                                    <option value="Arabic">Arabic</option>
+                                                  </select>
+                                                <br><br>
+                                                <input type="submit" value="Go" class="go">
+                                              </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link  dropbtn" href="contact_us.html" target="_blank" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn dropdown" href="#" id="navbarDropdownMenuLink">
+                                        <i class="fa-solid fa-magnifying-glass size_icon" ></i>
+                                    </a>
+                                </li>
+                                <li class="menu_li">
+                                    <div class="menu-list nav-link dropdown men_cls">
+                                            <label for="list">Menu</label>
+                                            <!-- <a href="#">
+                                                <i class="fa-solid fa-bars" id="list"></i>
+                                            </a> -->
+                                            <div class="links">
+                                                <span class="icon">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </span>
+                                                <ul>
+                                                    <!-- <li><a href="#">Special Offers</a></li>
+                                                    <li><a href="#">Book A Flight</a></li>
+                                                    <li><a href="#">Ticket Notice</a></li>
+                                                    <li><a href="#">About EGYPTAIR</a></li> -->
+                                                    <li>
+                                                        <a href="#" style="padding-top: 7px;">Special Offers</a><br>
+                                                        <a href="#">Book A Flight</a><br>
+                                                        <a href="login_page1.html" target="_blank">EGYPTAIR Corporate</a><br>
+                                                        <a href="login_page2.html" target="_blank">EGYPTAIR Plus</a><br>
+                                                        <a href="#">Ticket Notice</a><br>
+                                                        <a href="#">About EGYPTAIR</a><br>
+                                                        <a href="#" style="padding-bottom: 7px;">Search</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_images_t1">
+            <div class="image_content">
+                <div class="div_eg1">
+                    <div class="Ex_mark">
+                        <i class="fa-solid fa-exclamation"></i>
+                    </div>
+                    <div class="Ex_cont">Yellow Fever Requirements for passengers ...</div>
+                </div>
+            </div>
+            <div class="image_content_2">
+                <h3>Install your ticket</h3>
+                <p>For 12 months zero interest rate only <br> with NATIONAL BANK OF EGYPT credit <br> cards.(in collaboration with Mastercard)</p>
+                <span>*Terms & Conditions Apply.</span><br><br>
+                <a href="#">GET THE OFFER</a>
+            </div>
+        </div>
+
+        <div class="big_booking">
+            <div class="book_1">
+                    <div class="coll_1 btn_one">
+                        <a href="#" class="sty_btn cont_1">
+                            <i class="fa-solid fa-book"></i>
+                            BOOK
+                        </a>
+                        <!-- <i class="fa-solid fa-caret-down i_2"></i> -->
+                        <i class="fa-solid fa-play i_2"></i>
+                    </div>
+                    <div class="coll_1">
+                        <a href="#" class="sty_btn">
+                            <i class="fa-regular fa-calendar"></i>
+                            TIMETABLE</a>
+                    </div>
+                    <div class="coll_1">
+                        <a href="#" class="sty_btn">
+                            <i class="fa-solid fa-pencil"></i>
+                        FLIGHT STATUS</a>
+                    </div>
+                    <div class="coll_1">
+                        <a href="#" class="sty_btn">
+                            <i class="fa-solid fa-list-check"></i>
+                            MY BOOKING</a>
+                  </div>
+            </div>
+        </div>
+        <div class="rectangle">
+            <div class="rect_header">
+                <div class="head_red">
+                    <input type="radio" name="redioo" checked>
+                    <label>Round Trip</label>
+                    <input type="radio" name="redioo">
+                    <label>One Way</label>
+                </div>
+                <div class="head_lin">
+                    <a href="#" class="a_1">Multi Destination</a>
+                    <a href="#">Award ticket - Buy a ticket with Miles</a>
+                </div>
+            </div>
+            <div class="book_2">
+                <div class="coll_2">
+                    <a href="#" class="round_1">
+                        <h5>
+                            <i class="fa-solid fa-plane-departure"></i>
+                            FROM</h5>
+                        <p>Cairo, Cairo Intl Apt</p>
+                    </a>
+                </div>
+                <div class="coll_2">
+                    <a href="#" class="round_1">
+                        <h5>
+                            <i class="fa-solid fa-plane-arrival"></i>
+                            TO</h5>
+                        <p>Choose Arrival</p>
+                    </a>
+                </div>
+                <div class="coll_2">
+                    <a href="#" class="round_1">
+                        <h5>
+                            <i class="fa-solid fa-calendar"></i>
+                            DATES</h5>
+                        <p>Departing - Arriving</p>
+                    </a>
+                </div>
+                <div class="coll_2">
+                    <a href="#" class="round_2">
+                        <h5>CLASS</h5>
+                        <p>Select Cabin
+                            <i class="fa-solid fa-user"></i>
+                            <span>1</span>
+                        </p>
+                    </a>
+              </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header -->
+    <!-- Start Body -->
+    <div class="page_body">
+        <div class="container">
+            <div class="page_content">
+                <h2>EGYPT OFFERS</h2>
+                <p>Discover EGYPTAIR best fare deals on selected routes</p>
+                <a href="#">SPECIAL OFFERS</a>
+                <ul>
+                    <li class="act">MIDDLE EAST</li>
+                    <li>FAR EAST</li>
+                    <li>AFRICA</li>
+                    <li>EUROPE</li>
+                    <li>GULF</li>
+                    <li>NORTH AMERICA</li>
+                </ul>
+            </div>
+            <div class="country_content">
+                <ul class="in_ul">
+                    <li>
+                        <div class="images_content1">
+                            <a href="#">
+                                <img src="images/1.1.jpg" class="bgg_coll_img">
+                                <div class="img_cont1">
+                                    <h3>
+                                        <i class="fa-solid fa-plane" style="transform: rotate(-45deg);"></i>
+                                        CAIRO
+                                    </h3>
+                                    <h3>
+                                        <i class="fa-solid fa-plane" style="transform: rotate(135deg);"></i>
+                                        MARSA ALAM
+                                    </h3>
+                                    <h2>From EGP 4,923</h2>
+                                    <i class="fa-solid fa-angle-right an_i"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imagees2">
+                            <div class="images_content3">
+                                <a href="#">
+                                    <div class="img_cont3">
+                                        <h3>
+                                            <i class="fa-solid fa-plane" style="transform: rotate(-45deg);"></i>
+                                            CAIRO
+                                        </h3>
+                                        <h3>
+                                            <i class="fa-solid fa-plane" style="transform: rotate(135deg);"></i>
+                                            Beirut
+                                        </h3>
+                                        <h2>From EGP 7,079</h2>
+                                        <i class="fa-solid fa-angle-right an_i"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imagees3">
+                            <div class="images_content3">
+                                <a href="#">
+                                    <div class="img_cont3">
+                                        <h3>
+                                            <i class="fa-solid fa-plane" style="transform: rotate(-45deg);"></i>
+                                            CAIRO
+                                        </h3>
+                                        <h3>
+                                            <i class="fa-solid fa-plane" style="transform: rotate(135deg);"></i>
+                                            Aswan
+                                        </h3>
+                                        <h2>From EGP 4,784</h2>
+                                        <i class="fa-solid fa-angle-right an_i"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li></li>
+                    <li>
+                        <div class="imagees4">
+                            <div class="images_content3">
+                                <a href="#">
+                                    <div class="img_cont3">
+                                        <h3>
+                                            <i class="fa-solid fa-plane" style="transform: rotate(-45deg);"></i>
+                                            CAIRO
+                                        </h3>
+                                        <h3>
+                                            <i class="fa-solid fa-plane" style="transform: rotate(135deg);"></i>
+                                            Luxor
+                                        </h3>
+                                        <h2>From EGP 4,308</h2>
+                                        <i class="fa-solid fa-angle-right an_i"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imagees5">
+                            <div class="images_content3">
+                                <a href="#">
+                                    <div class="img_cont3">
+                                        <h3>
+                                            <i class="fa-solid fa-plane" style="transform: rotate(-45deg);"></i>
+                                            CAIRO
+                                        </h3>
+                                        <h3>
+                                            <i class="fa-solid fa-plane" style="transform: rotate(135deg);"></i>
+                                            Hurghada
+                                        </h3>
+                                        <h2>From EGP 4,308</h2>
+                                        <i class="fa-solid fa-angle-right an_i"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <span><a href="#">SEE ALL OFFERS ></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Body -->
+    <!-- Start Before Fly -->
+    <div class="before_fly">
+        <div class="container">
+            <h2>BEFORE YOU FLY</h2>
+            <p>Check our Additional Services, brought to you for a better travel experience</p>
+            <div class="before_conent">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-suitcase"></i>
+                            <div>Baggage</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <div>E-Upgrade</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-clock"></i>
+                            <div>Lounges</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-suitcase-rolling"></i>
+                            <div>Bag Tag</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-info"></i>
+                            <div>Travel Info</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Before Fly -->
+    <!-- Start Services -->
+    <div class="Services">
+        <div class="container">
+            <h2>EGYPTAIR SERVICES</h2>
+            <p>Bring your Travel Guide with you Get notified about nearby Events and Attractions.</p>
+            <div class="sev_row">
+                <div class="row">
+                    <div class="col-6 bg_color">
+                      <a href="#" class="hed_link">
+                        <h2>COVID 19 HYGIENE MEASURES ...</h2>
+                        <i class="fa-solid fa-angle-right an_i2"></i>
+                      </a>
+                    </div>
+                    <div class="col-3 dif_img1">
+                        <a href="#" class="hed_link2">
+                            <h2>COUNTRIES TRAVEL REQUIREMENTS</h2>
+                            <i class="fa-solid fa-angle-right an_i3"></i>
+                          </a>
+                    </div>
+                    <div class="col-3 dif_img2">
+                        <a href="#" class="hed_link3">
+                            <h2>We Care..</h2>
+                            <p>Share your thoughts with us..Questions? Comments? Concerns?</p>
+                            <i class="fa-solid fa-angle-right an_i4"></i>
+                          </a>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-3 row_dif1">
+                      <a href="#" class="cont_row2_1">
+                        <h3>Save your time</h3>
+                        <p>Find available lounges at <br> selected airports</p>
+                        <i class="fa-solid fa-angle-right cont_i1"></i>
+                      </a>
+                    </div>
+                    <div class="col-3 dif_img1 row_dif2">
+                        <a href="#" class="cont_row2_2">
+                            <h3>Destination Guide</h3>
+                            <i class="fa-solid fa-angle-right cont_i2 "></i>
+                          </a>
+                    </div>
+                    <div class="col-3 dif_img2 row_dif3">
+                        <a href="#" class="cont_row2_3">
+                            <i class="fa-solid fa-angle-right  cont_i3"></i>
+                          </a>
+                    </div>
+                </div>
+
+                <div class="row r3">
+                    <div class="col-3 row2_dif1">
+                        <a href="#" class="cont2_row2_1">
+                            <h1>Purchase your extra bag(s) online</h1>
+                            <p>and save up to 25%</p>
+                            <i class="fa-solid fa-angle-right cont2_i1"></i>
+                        </a>
+                    </div>
+                    <div class="col-3 dif_img1 row2_dif2">
+                        <a href="#" class="cont2_row2_2">
+                            <h1>Reserve</h1>
+                            <p>your preferred seat <br> online</p>
+                            <i class="fa-solid fa-angle-right cont2_i2"></i>
+                        </a>
+                    </div>
+                    <div class="col-3 dif_img2 row2_dif3">
+                        <a href="#" class="cont2_row2_3">
+                            <h1>InFlight entertainment</h1>
+                            <i class="fa-solid fa-angle-right cont2_i3"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Footer -->
+    <div class="footer_one">
+        <div class="container">
+            <p class="p_titel">Join Our Newsletter</p>
+            <p>FOLLOW EGYPTAIR ON SOCIAL MEDIA TO <br> KEEP UP TO DATE WITH LATEST UPDATES.</p>
+            <a href="#">SUBSCRIBE TO OUR NEWSLETTER  ></a>
+            <p class="follow">Follow Us On</p>
+            <div class="icon_list">
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-youtube"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer_two">
+        <div class="container">
+            <div class="foot1">
+                <div class="row row_1">
+                    <div class="col-2">Plan</div>
+                    <div class="col-2">Book</div>
+                    <div class="col-2">Fly</div>
+                    <div class="col-2">About EGYPTAIR</div>
+                    <div class="col-4">Conditions of Carriage</div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2">Special Offers</div>
+                    <div class="col-2">Book A Flight</div>
+                    <div class="col-2">Check-in</div>
+                    <div class="col-2">Story</div>
+                    <div class="col-4">Ticket Notice</div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2">Timetable</div>
+                    <div class="col-2">My Bookings</div>
+                    <div class="col-2">Seat Reservation</div>
+                    <div class="col-2">Mission & Vision</div>
+                    <div class="col-4">We Care</div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2">Visa & Health</div>
+                    <div class="col-2">Charter flights</div>
+                    <div class="col-2">Flight Status</div>
+                    <div class="col-2">Annual Reports</div>
+                    <div class="col-4">Cookies</div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2">Discover Egypt</div>
+                    <div class="col-2">Group Reservation</div>
+                    <div class="col-2">Baggage</div>
+                    <div class="col-2">Special Services</div>
+                    <div class="col-4">website Terms & Conditions</div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2">Destination Guides</div>
+                    <div class="col-2">EGYPTAIR Corporate</div>
+                    <div class="col-2">News and Press</div>
+                    <div class="col-2">Code Share Partners</div>
+                    <div class="col-4">Site Help</div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2"></div>
+                    <div class="col-2">EGYPTAIR Plus</div>
+                    <div class="col-2">Entertainment</div>
+                    <div class="col-2">Star Alliance</div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2">Special Assistance</div>
+                    <div class="col-2">Fleet</div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2">E-Upgrade</div>
+                    <div class="col-2">Conferences and Exhibitions</div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row row_2">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2">Duty Free</div>
+                    <div class="col-2">EGYPTAIR Group</div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+            <div class="foot2">
+                <div class="foot_hed">EGYPTAIR Mobile App</div>
+                <div class="mobile">
+                    <div class="mob1">
+                        <div class="stor">
+                            <a href="#">
+                                <img src="images/5.1.png" width="150px" height="50px">
+                            </a>
+                        </div>
+                        <div class="play">
+                            <a href="#">
+                                <img src="images/5.2.png" width="150px" height="50px">
+                            </a>
+                        </div>
+                        <div class="gallery">
+                            <a href="#">
+                                <img src="images/5.3.png" width="150px" height="50px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mob2">
+                        <div class="rate">Rating</div>
+                        <div class="star">
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="rate2">4.1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line_foot"></div>
+            </div>
+            <div class="foot3">
+                <div class="row">
+                    <div class="col-4">
+                        © 2023 EGYPTAIR, All Rights Reserved
+                    </div>
+                    <div class="col-4">
+                        Privacy Policy|Site Help
+                    </div>
+                    <div class="col-4">
+                        <img src="images/footer.png" width="240px" height="22px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <script src="flight_book.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
